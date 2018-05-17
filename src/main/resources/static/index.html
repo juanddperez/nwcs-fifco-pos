@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es" data-ng-app="app">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>FIFCO - Punto de Venta</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<base href="/">
+</head>
+<body>
+	<nav id="navbar" class="navbar bg-black">
+	  <a class="navbar-brand" href="#">
+	    <img src="images/fifco_logo_brand.png">
+	  </a>
+    <h4 class="navbar-text text-white">
+		  Point-of-Sale Software v1.0
+		</h4>
+	</nav>
+	<div id="view" ui-view class="fill"></div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.10/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.6.10/i18n/angular-locale_es.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.17/angular-ui-router.min.js"></script>
+
+	<!-- APP -->
+	<script type="text/javascript" src="app/main.js"></script>
+	<script type="text/javascript" src="app/services/CustomerService.js"></script>
+	<script type="text/javascript" src="app/services/OrderService.js"></script>
+	<script type="text/javascript" src="app/services/ProductService.js"></script>
+	<script type="text/javascript" src="app/services/ShoppingCartService.js"></script>
+	<script type="text/javascript" src="app/controllers/PosViewController.js"></script>
+	<script type="text/javascript" src="app/controllers/CheckoutController.js"></script>
+	<script type="text/javascript" src="app/controllers/SummaryController.js"></script>
+</body>
+</html>

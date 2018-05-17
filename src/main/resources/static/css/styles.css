@@ -1,0 +1,116 @@
+#navbar {
+	height: 100px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#view {
+	position: absolute;
+  top: 0;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.order-actions .row {
+	position: absolute;
+  bottom: 15px;
+  width: 94%;
+}
+
+.pt-20 {
+	padding-top: 20px !important;
+}
+
+.mb-20 {
+	margin-bottom: 20px !important;
+}
+
+.mb-15 {
+	margin-bottom: 15px !important;
+}
+
+body, html {
+	min-height: 100%;
+	height: 100%;
+}
+
+.bg-black {
+	background: #000 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 !important;
+}
+
+#left-panel {
+	border-right: 1px gray solid;
+}
+
+#right-panel {
+	border-left: 1px gray solid;
+}
+
+.fill {
+	min-height: 100%;
+	height: 100%;
+}
+
+.order-total {
+	font-size: 24px;
+}
+
+.customer-info {
+	font-size: 24px;
+}
+
+.order-actions .row > div {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.order-actions button {
+	width: 100%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.product-box {
+	margin-top: 15px;
+}
+
+.product-box-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#checkout .jumbotron {
+	margin-top: 50px;
+}
+
+#checkout .title {
+	padding-bottom: 25px;
+}
+
+.table-borderless td, .table-borderless th {
+   border: none !important;
+}
+
+#summary .jumbotron {
+	margin-top: 50px;
+}
+
+#summary .title {
+	
+}
+#summary .order-nr {
+	
+}
+#summary .order-points {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#summary .order-details {
+	
+}

@@ -1,0 +1,28 @@
+<div id="summary" class="container-fluid">
+	<div class="row">
+		<div class="offset-2 col-8">
+			<div class="jumbotron">
+			  <h1 class="title text-center">Orden Finalizada</h1> 
+			  <h4 class="order-nr text-center">{{vm.order.orderNr}}</h4>
+			  <h3 class="order-points text-center">¡{{vm.order.totalPoints}} puntos obtenidos!</h3>
+			  <table class="order-details table table-sm table-borderless w-100">
+			  	<colgroup>
+			  		<col width="50%">
+			  		<col width="50%">
+			  	</colgroup>
+			  	<tbody>
+			  		<tr>
+			  			<td class="text-right"><strong>Total Orden:</strong></td>
+			  			<td>{{vm.order.totalAmount | currency:'₡'}}</td>
+			  		</tr>
+			  		<tr>
+			  			<td class="text-right"><strong>Total Elementos:</strong></td>
+			  			<td>{{vm.order.totalElements}}</td>
+			  		</tr>
+			  	</tbody>
+			  </table> 
+			  <button class="btn btn-success w-100" data-ui-sref="pos">VOLVER AL INICIO</button>
+			</div>
+		</div>
+	</div>
+</div>
