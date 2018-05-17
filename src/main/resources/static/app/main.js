@@ -8,8 +8,8 @@
       $l.html5Mode(true);
 
       $s.state("pos", {
-        url: "/",
-        templateUrl: "app/templates/pos-view.html?customer",
+        url: "/?customer",
+        templateUrl: "app/templates/pos-view.html",
         controllerAs : "vm",
         params: {
           customer: "10156111015540865"
