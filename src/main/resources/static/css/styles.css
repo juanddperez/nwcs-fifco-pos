@@ -4,6 +4,10 @@
 	padding-bottom: 0px;
 }
 
+#navbar img {
+	max-height: 90px;
+}
+
 #view {
 	position: absolute;
   top: 0;
